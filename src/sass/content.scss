@@ -1,0 +1,23 @@
+.wrapperContent {
+  width: 432px;
+  height: 388px;
+  border: 5px solid #27569c;
+  padding: 25px;
+  margin-top: 20px;
+
+  .flexElem {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    gap: 25px;
+
+    div {
+      display: flex;
+      flex-direction: column;
+
+      span {
+        margin-bottom: 11px;
+      }
+    }
+  }
+}

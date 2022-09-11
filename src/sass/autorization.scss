@@ -1,0 +1,84 @@
+.wrapperAutorization {
+  width: 480px;
+  height: 330px;
+  margin-top: 229px;
+  padding: 20px;
+  border: 5px solid #27569c;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+
+  p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #27569c;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 29px;
+
+      input {
+        height: 45px;
+        background: #d9d9d9;
+        border: 4px solid #27569c;
+        border-radius: 10px;
+        width: 295px;
+      }
+    }
+
+    div {
+      margin-bottom: 10px;
+
+      span {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 800;
+        line-height: 29px;
+        color: red;
+      }
+    }
+
+    .btnFlex {
+      display: flex;
+      justify-content: center;
+
+      .btnSubForm {
+        background: #e4b062;
+        border-radius: 10px;
+        border: 0;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 29px;
+        width: 213px;
+        height: 43px;
+        cursor: pointer;
+        opacity: 0.8;
+        transition: opacity 0.2s linear;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

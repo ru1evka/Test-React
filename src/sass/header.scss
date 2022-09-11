@@ -1,0 +1,34 @@
+.header {
+  height: 118px;
+  background-color: #e4b062;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 41px;
+  padding-right: 41px;
+
+  .wrapperUser {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    cursor: pointer;
+
+    span {
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: 24px;
+      transition: color 0.1s linear;
+      cursor: pointer;
+    }
+
+    .exit {
+      width: 62px;
+      height: 56px;
+      background: url("../../public/img/exit.svg") no-repeat;
+      transition: background 0.1s linear;
+
+      &:hover {
+        background: url("../../public/img/exitblue.svg");
+      }
+    }
+  }
+}
