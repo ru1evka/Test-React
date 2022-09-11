@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Test-React/static/css/main.b3fb6c81.css",
+    "main.js": "/Test-React/static/js/main.5b1a93fb.js",
+    "static/media/exit.svg": "/Test-React/static/media/exit.39d1e384fc28cd63da2b.svg",
+    "static/media/exitblue.svg": "/Test-React/static/media/exitblue.ce2a8bce48551a0b6a4c.svg",
+    "index.html": "/Test-React/index.html",
+    "main.b3fb6c81.css.map": "/Test-React/static/css/main.b3fb6c81.css.map",
+    "main.5b1a93fb.js.map": "/Test-React/static/js/main.5b1a93fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3fb6c81.css",
+    "static/js/main.5b1a93fb.js"
+  ]
+}
